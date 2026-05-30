@@ -1,0 +1,18 @@
+contra_proyecto:oracle
+
+[INFO DE LA CONEXIÓN(SYSTEM) PARA SQL DEVELOPER]:
+Connection Name:  Oracle Docker
+Username:         system
+Password:         oracle
+Hostname:         localhost
+Port:             1522
+SID:              XE
+
+-------------------------------------------------
+[INFO DE LA HOJA DE LA LIBRERIA.SQL]:
+Connection Name:  LIBRERIA
+Username:         libreria
+Password:         oracle
+Hostname:         localhost
+Port:             1522
+SID:              XE
