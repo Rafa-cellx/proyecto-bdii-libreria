@@ -493,723 +493,893 @@ INSERT INTO AUTORES_CRAM(ID_AUTOR,NOMBRE,APELLIDO)
 VALUES(AUT_CRAM_ID_AUT_SEQ.NEXTVAL,'Haruki','Murakami');
 
 select * from autores_cram;
-
+select * from direcciones_cram;--id-91-180
 --INSERTS DE MIEMBROS
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,1,'M','Gabriel','Bortoleto','4933271156','BortoSexo@gmail.com','Cabello y ojos marrones, tez morena, habla portugues');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,91,'M','Gabriel','Bortoleto','4933271156','BortoSexo@gmail.com','Cabello y ojos marrones, tez morena, habla portugues');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,2,'F','Maria','Gonzalez','4921345678','maria.gonzalez@gmail.com','Cabello negro, ojos cafes, usa lentes');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,92,'F','Maria','Gonzalez','4921345678','maria.gonzalez@gmail.com','Cabello negro, ojos cafes, usa lentes');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,3,'M','Carlos','Ramirez','5512349876','carlos.ramirez@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,93,'M','Carlos','Ramirez','5512349876','carlos.ramirez@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,4,'F','Sofia','Lopez','8112345432','sofia.lopez@outlook.com','Estudiante universitaria, carrera de derecho');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,94,'F','Sofia','Lopez','8112345432','sofia.lopez@outlook.com','Estudiante universitaria, carrera de derecho');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,5,'M','Luis','Martinez','3312987654','luis.mtz@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,95,'M','Luis','Martinez','3312987654','luis.mtz@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,6,'F','Ana','Hernandez','4921567890','ana.hdz@gmail.com','Profesora de primaria, visita la biblioteca los sabados');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,96,'F','Ana','Hernandez','4921567890','ana.hdz@gmail.com','Profesora de primaria, visita la biblioteca los sabados');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,7,'M','Jorge','Perez','6671234567','jorge.perez@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,97,'M','Jorge','Perez','6671234567','jorge.perez@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,8,'F','Valentina','Torres',NULL,'vale.torres@gmail.com','Escritora aficionada, interes en literatura latinoamericana');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,98,'F','Valentina','Torres',NULL,'vale.torres@gmail.com','Escritora aficionada, interes en literatura latinoamericana');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,9,'M','Roberto','Flores','8183456789','roberto.flores@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,99,'M','Roberto','Flores','8183456789','roberto.flores@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,10,'F','Daniela','Cruz','4491234567','dani.cruz@gmail.com','Medico general, lee en sus tiempos libres');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,100,'F','Daniela','Cruz','4491234567','dani.cruz@gmail.com','Medico general, lee en sus tiempos libres');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,11,'M','Miguel','Morales',NULL,NULL,'Adulto mayor, prefiere libros de historia');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,101,'M','Miguel','Morales',NULL,NULL,'Adulto mayor, prefiere libros de historia');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,12,'F','Paola','Jimenez','5512876543','paola.jimenez@outlook.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,102,'F','Paola','Jimenez','5512876543','paola.jimenez@outlook.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,13,'M','Eduardo','Diaz','3312456789','edu.diaz@gmail.com','Ingeniero en sistemas, fan de la ciencia ficcion');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,103,'M','Eduardo','Diaz','3312456789','edu.diaz@gmail.com','Ingeniero en sistemas, fan de la ciencia ficcion');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,14,'F','Gabriela','Reyes',NULL,'gaby.reyes@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,104,'F','Gabriela','Reyes',NULL,'gaby.reyes@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,15,'M','Fernando','Gutierrez','4921098765','fer.gutierrez@hotmail.com','Abogado, interes en biografia y ensayo');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,105,'M','Fernando','Gutierrez','4921098765','fer.gutierrez@hotmail.com','Abogado, interes en biografia y ensayo');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,16,'O','Alex','Vargas','9981234567','alex.vargas@gmail.com','Prefiere que le llamen Alex, estudiante de artes');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,106,'O','Alex','Vargas','9981234567','alex.vargas@gmail.com','Prefiere que le llamen Alex, estudiante de artes');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,17,'F','Carmen','Romero','6641357924','carmen.romero@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,107,'F','Carmen','Romero','6641357924','carmen.romero@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,18,'M','Hector','Medina','6141234567','hector.medina@gmail.com','Trabaja en turismo, lee guias de viaje');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,108,'M','Hector','Medina','6141234567','hector.medina@gmail.com','Trabaja en turismo, lee guias de viaje');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,19,'F','Lucia','Aguilar',NULL,'lucia.aguilar@outlook.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,109,'F','Lucia','Aguilar',NULL,'lucia.aguilar@outlook.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,20,'M','Ricardo','Castillo','8991234567','ricardo.castillo@gmail.com','Contador, lector habitual de novela negra');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,110,'M','Ricardo','Castillo','8991234567','ricardo.castillo@gmail.com','Contador, lector habitual de novela negra');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,21,'F','Natalia','Mendoza','3221456789','naty.mendoza@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,111,'F','Natalia','Mendoza','3221456789','naty.mendoza@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,22,'M','Alejandro','Ruiz','7221234567','alex.ruiz@hotmail.com','Arquitecto, interes en arte y diseno');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,112,'M','Alejandro','Ruiz','7221234567','alex.ruiz@hotmail.com','Arquitecto, interes en arte y diseno');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,23,'F','Mariana','Ortiz',NULL,NULL,'Sin telefono ni correo registrado');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,113,'F','Mariana','Ortiz',NULL,NULL,'Sin telefono ni correo registrado');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,24,'M','Ivan','Delgado','8341234567','ivan.delgado@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,114,'M','Ivan','Delgado','8341234567','ivan.delgado@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,25,'F','Veronica','Guerrero','4481234567','vero.guerrero@yahoo.com','Psicologa, interes en autoayuda y filosofia');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,115,'F','Veronica','Guerrero','4481234567','vero.guerrero@yahoo.com','Psicologa, interes en autoayuda y filosofia');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,26,'M','Pablo','Nunez','6861234567','pablo.nunez@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,116,'M','Pablo','Nunez','6861234567','pablo.nunez@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,27,'O','Jordan','Soto','9141234567','jordan.soto@outlook.com','No binario, estudiante de filosofia');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,117,'O','Jordan','Soto','9141234567','jordan.soto@outlook.com','No binario, estudiante de filosofia');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,28,'F','Diana','Cervantes',NULL,'diana.cervantes@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,118,'F','Diana','Cervantes',NULL,'diana.cervantes@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,29,'M','Andres','Sandoval','9611234567','andres.sandoval@hotmail.com','Veterinario, fan de la literatura japonesa');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,119,'M','Andres','Sandoval','9611234567','andres.sandoval@hotmail.com','Veterinario, fan de la literatura japonesa');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,30,'F','Claudia','Vega','7121234567','claudia.vega@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,120,'F','Claudia','Vega','7121234567','claudia.vega@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,31,'M','Oscar','Rios','6691234567','oscar.rios@gmail.com','Musico, lee sobre historia del arte');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,121,'M','Oscar','Rios','6691234567','oscar.rios@gmail.com','Musico, lee sobre historia del arte');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,32,'F','Monica','Fuentes',NULL,'monica.fuentes@outlook.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,122,'F','Monica','Fuentes',NULL,'monica.fuentes@outlook.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,33,'M','Sergio','Contreras','9381234567','sergio.contreras@gmail.com','Chef, interes en gastronomia y cultura');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,123,'M','Sergio','Contreras','9381234567','sergio.contreras@gmail.com','Chef, interes en gastronomia y cultura');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,34,'F','Adriana','Lara','9121234567','adriana.lara@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,124,'F','Adriana','Lara','9121234567','adriana.lara@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,35,'M','Diego','Espinoza','7521234567','diego.espinoza@gmail.com','Estudiante de medicina, poco tiempo libre');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,125,'M','Diego','Espinoza','7521234567','diego.espinoza@gmail.com','Estudiante de medicina, poco tiempo libre');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,36,'F','Patricia','Mendez',NULL,NULL,'Ama de casa, prefiere novela romantica');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,126,'F','Patricia','Mendez',NULL,NULL,'Ama de casa, prefiere novela romantica');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,37,'M','Manuel','Rojas','8661234567','manuel.rojas@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,127,'M','Manuel','Rojas','8661234567','manuel.rojas@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,38,'F','Alejandra','Navarro','7411234567','ale.navarro@gmail.com','Maestra de secundaria, promotora de lectura');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,128,'F','Alejandra','Navarro','7411234567','ale.navarro@gmail.com','Maestra de secundaria, promotora de lectura');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,39,'M','Francisco','Herrera',NULL,'fco.herrera@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,129,'M','Francisco','Herrera',NULL,'fco.herrera@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,40,'O','Sam','Ibarra','5541234567','sam.ibarra@outlook.com','Diseñador grafico, lee sobre tipografia y arte');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,130,'O','Sam','Ibarra','5541234567','sam.ibarra@outlook.com','Diseñador grafico, lee sobre tipografia y arte');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,41,'F','Rosa','Dominguez','9511234567','rosa.dominguez@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,131,'F','Rosa','Dominguez','9511234567','rosa.dominguez@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,42,'M','Arturo','Campos','4341234567','arturo.campos@yahoo.com','Piloto, lector de thriller y aventura');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,132,'M','Arturo','Campos','4341234567','arturo.campos@yahoo.com','Piloto, lector de thriller y aventura');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,43,'F','Irene','Pacheco',NULL,'irene.pacheco@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,133,'F','Irene','Pacheco',NULL,'irene.pacheco@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,44,'M','Raul','Leon','8441234567','raul.leon@gmail.com','Economista, interes en ensayo politico');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,134,'M','Raul','Leon','8441234567','raul.leon@gmail.com','Economista, interes en ensayo politico');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,45,'F','Silvia','Castro',NULL,NULL,'Sin datos de contacto registrados');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,135,'F','Silvia','Castro',NULL,NULL,'Sin datos de contacto registrados');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,46,'M','Ernesto','Vidal','9221234567','ernesto.vidal@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,136,'M','Ernesto','Vidal','9221234567','ernesto.vidal@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,47,'F','Beatriz','Montes','7771234567','bea.montes@outlook.com','Bibliotecaria en otra sucursal, miembro honoraria');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,137,'F','Beatriz','Montes','7771234567','bea.montes@outlook.com','Bibliotecaria en otra sucursal, miembro honoraria');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,48,'M','Victor','Iglesias','6181234567','victor.iglesias@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,138,'M','Victor','Iglesias','6181234567','victor.iglesias@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,49,'F','Lorena','Pena','8121234567','lorena.pena@yahoo.com','Fotografa, interes en arte y poesia');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,139,'F','Lorena','Pena','8121234567','lorena.pena@yahoo.com','Fotografa, interes en arte y poesia');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,50,'M','Guillermo','Acosta',NULL,'guillermo.acosta@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,140,'M','Guillermo','Acosta',NULL,'guillermo.acosta@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,51,'F','Esperanza','Salinas','9171234567','espe.salinas@hotmail.com','Abuela de 3 nietos, lee cuentos infantiles');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,141,'F','Esperanza','Salinas','9171234567','espe.salinas@hotmail.com','Abuela de 3 nietos, lee cuentos infantiles');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,52,'M','Jonatan','Mejia','7191234567','jonatan.mejia@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,142,'M','Jonatan','Mejia','7191234567','jonatan.mejia@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,53,'F','Yesenia','Trejo',NULL,'yesenia.trejo@outlook.com','Nutriologa, interes en ciencia y salud');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,143,'F','Yesenia','Trejo',NULL,'yesenia.trejo@outlook.com','Nutriologa, interes en ciencia y salud');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,54,'M','Bernardo','Fuentes','6241234567','bernardo.fuentes@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,144,'M','Bernardo','Fuentes','6241234567','bernardo.fuentes@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,55,'F','Nadia','Esquivel','3381234567','nadia.esquivel@gmail.com','Bailarina, lee sobre danza y teatro');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,145,'F','Nadia','Esquivel','3381234567','nadia.esquivel@gmail.com','Bailarina, lee sobre danza y teatro');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,56,'M','Cristian','Olvera',NULL,NULL,'Joven de 16 anos, lector de manga y fantasia');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,146,'M','Cristian','Olvera',NULL,NULL,'Joven de 16 anos, lector de manga y fantasia');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,57,'F','Miriam','Alvarado','9521234567','miriam.alvarado@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,147,'F','Miriam','Alvarado','9521234567','miriam.alvarado@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,58,'M','Tomas','Barrera','8711234567','tomas.barrera@gmail.com','Jubilado, visita la biblioteca diariamente');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,148,'M','Tomas','Barrera','8711234567','tomas.barrera@gmail.com','Jubilado, visita la biblioteca diariamente');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,59,'F','Ivonne','Tapia',NULL,'ivonne.tapia@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,149,'F','Ivonne','Tapia',NULL,'ivonne.tapia@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,60,'O','Robin','Estrada','5591234567','robin.estrada@gmail.com','Activista, interes en sociologia y politica');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,150,'O','Robin','Estrada','5591234567','robin.estrada@gmail.com','Activista, interes en sociologia y politica');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,61,'M','Alvaro','Ponce','4711234567','alvaro.ponce@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,151,'M','Alvaro','Ponce','4711234567','alvaro.ponce@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,62,'F','Rebeca','Solis','7231234567','rebeca.solis@outlook.com','Historiadora, especialista en epoca colonial');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,152,'F','Rebeca','Solis','7231234567','rebeca.solis@outlook.com','Historiadora, especialista en epoca colonial');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,63,'M','Ignacio','Quintero',NULL,'ignacio.quintero@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,153,'M','Ignacio','Quintero',NULL,'ignacio.quintero@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,64,'F','Karla','Bustos','9811234567','karla.bustos@gmail.com','Periodista, lectora voraz de no ficcion');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,154,'F','Karla','Bustos','9811234567','karla.bustos@gmail.com','Periodista, lectora voraz de no ficcion');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,65,'M','Enrique','Maldonado','6471234567','enrique.maldonado@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,155,'M','Enrique','Maldonado','6471234567','enrique.maldonado@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,66,'F','Susana','Carrillo',NULL,'susana.carrillo@gmail.com','Trabaja en ONG, interes en derechos humanos');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,156,'F','Susana','Carrillo',NULL,'susana.carrillo@gmail.com','Trabaja en ONG, interes en derechos humanos');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,67,'M','Leandro','Avila','9951234567','leandro.avila@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,157,'M','Leandro','Avila','9951234567','leandro.avila@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,68,'F','Perla','Zuniga','7321234567','perla.zuniga@gmail.com','Estudiante de letras hispanicas');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,158,'F','Perla','Zuniga','7321234567','perla.zuniga@gmail.com','Estudiante de letras hispanicas');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,69,'M','Rogelio','Macias',NULL,NULL,'Sin datos de contacto, prefiere anonimato');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,159,'M','Rogelio','Macias',NULL,NULL,'Sin datos de contacto, prefiere anonimato');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,70,'F','Wendy','Palacios','9641234567','wendy.palacios@outlook.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,160,'F','Wendy','Palacios','9641234567','wendy.palacios@outlook.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,71,'M','Octavio','Cisneros','7431234567','octavio.cisneros@gmail.com','Filosofo aficionado, coleccionista de libros antiguos');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,161,'M','Octavio','Cisneros','7431234567','octavio.cisneros@gmail.com','Filosofo aficionado, coleccionista de libros antiguos');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,72,'F','Alicia','Bravo',NULL,'alicia.bravo@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,162,'F','Alicia','Bravo',NULL,'alicia.bravo@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,73,'M','Gerardo','Ibañez','8881234567','gerardo.ibanez@hotmail.com','Deportista, lee sobre nutricion y rendimiento');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,163,'M','Gerardo','Ibañez','8881234567','gerardo.ibanez@hotmail.com','Deportista, lee sobre nutricion y rendimiento');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,74,'F','Fabiola','Cano','3121234567','fabiola.cano@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,164,'F','Fabiola','Cano','3121234567','fabiola.cano@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,75,'M','Horacio','Salas',NULL,'horacio.salas@yahoo.com','Escritor independiente, miembro frecuente');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,165,'M','Horacio','Salas',NULL,'horacio.salas@yahoo.com','Escritor independiente, miembro frecuente');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,76,'F','Esther','Quiroz','9291234567','esther.quiroz@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,166,'F','Esther','Quiroz','9291234567','esther.quiroz@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,77,'M','Cesar','Monroy','4621234567','cesar.monroy@outlook.com','Docente universitario de literatura');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,167,'M','Cesar','Monroy','4621234567','cesar.monroy@outlook.com','Docente universitario de literatura');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,78,'F','Jacqueline','Lozano',NULL,NULL,'Miembro desde hace 10 anos, sin contacto actualizado');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,168,'F','Jacqueline','Lozano',NULL,NULL,'Miembro desde hace 10 anos, sin contacto actualizado');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,79,'M','Isidro','Velazquez','9341234567','isidro.velazquez@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,169,'M','Isidro','Velazquez','9341234567','isidro.velazquez@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,80,'F','Norma','Acevedo','7541234567','norma.acevedo@gmail.com','Enfermera, lee en turnos nocturnos');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,170,'F','Norma','Acevedo','7541234567','norma.acevedo@gmail.com','Enfermera, lee en turnos nocturnos');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,81,'M','Benjamin','Esteves',NULL,'benjamin.esteves@hotmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,171,'M','Benjamin','Esteves',NULL,'benjamin.esteves@hotmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,82,'F','Graciela','Paredes','9711234567','graciela.paredes@gmail.com','Pintora, se inspira en novelas para sus obras');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,172,'F','Graciela','Paredes','9711234567','graciela.paredes@gmail.com','Pintora, se inspira en novelas para sus obras');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,83,'M','Aurelio','Venegas','6351234567','aurelio.venegas@yahoo.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,173,'M','Aurelio','Venegas','6351234567','aurelio.venegas@yahoo.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,84,'F','Consuelo','Rangel',NULL,'consuelo.rangel@gmail.com','Traductora, domina frances e ingles');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,174,'F','Consuelo','Rangel',NULL,'consuelo.rangel@gmail.com','Traductora, domina frances e ingles');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,85,'M','Mauricio','Alonzo','8141234567','mauricio.alonzo@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,175,'M','Mauricio','Alonzo','8141234567','mauricio.alonzo@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,86,'F','Araceli','Duran',NULL,NULL,'Adulta mayor, miembro fundadora de la biblioteca');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,176,'F','Araceli','Duran',NULL,NULL,'Adulta mayor, miembro fundadora de la biblioteca');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,87,'M','Genaro','Villanueva','9841234567','genaro.villanueva@outlook.com','Programador, fan de ciencia ficcion y cyberpunk');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,177,'M','Genaro','Villanueva','9841234567','genaro.villanueva@outlook.com','Programador, fan de ciencia ficcion y cyberpunk');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,88,'F','Rocio','Taboada',NULL,'rocio.taboada@gmail.com',NULL);
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,178,'F','Rocio','Taboada',NULL,'rocio.taboada@gmail.com',NULL);
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,89,'M','Abelardo','Fuentes','7671234567','abelardo.fuentes@hotmail.com','Historiador local, investiga sobre Zacatecas');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,179,'M','Abelardo','Fuentes','7671234567','abelardo.fuentes@hotmail.com','Historiador local, investiga sobre Zacatecas');
 
 INSERT INTO MIEMBROS_CRAM(ID_MIEMBRO,ID_DIRECCION,GENERO,NOMBRE,APELLIDO,TELEFONO,CORREO,OTROS_DETALLES)
-VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,90,'F','Dolores','Marquez',NULL,'dolores.marquez@gmail.com','Jubilada, lectora de romance y novela historica');
+VALUES(MIE_CRAM_ID_MIE_SEQ.NEXTVAL,180,'F','Dolores','Marquez',NULL,'dolores.marquez@gmail.com','Jubilada, lectora de romance y novela historica');
+COMMIT;
 
-select * from miembros_cram;
+select * from BIBLIOTECAS_cram;
 
 --INSERTS DE BIBLIOTECAS
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,1,'Mauricio Magdaleno','Fachada color blanco, edificio cilindrico con ventanas');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,91,'Mauricio Magdaleno','Fachada color blanco, edificio cilindrico con ventanas');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,5,'Jose Vasconcelos','Biblioteca moderna con jardines interiores y sala de lectura digital');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,95,'Jose Vasconcelos','Biblioteca moderna con jardines interiores y sala de lectura digital');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,12,'Francisco Garcia Salinas',NULL);
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,121,'Francisco Garcia Salinas',NULL);
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,18,'Biblioteca Daniel Cosio Villegas','Especializada en ciencias sociales, pertenece al Tec de Monterrey');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,118,'Biblioteca Daniel Cosio Villegas','Especializada en ciencias sociales, pertenece al Tec de Monterrey');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,25,'Juan Jose Arreola','Edificio de dos pisos con auditorio para eventos literarios');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,125,'Juan Jose Arreola','Edificio de dos pisos con auditorio para eventos literarios');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,33,'Biblioteca Publica de Guadalajara',NULL);
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,133,'Biblioteca Publica de Guadalajara',NULL);
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,41,'Sor Juana Ines de la Cruz','Biblioteca especializada en literatura mexicana, fachada colonial restaurada');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,141,'Sor Juana Ines de la Cruz','Biblioteca especializada en literatura mexicana, fachada colonial restaurada');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,50,'Octavio Paz','Cuenta con sala infantil, sala de computo y terraza de lectura al aire libre');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,150,'Octavio Paz','Cuenta con sala infantil, sala de computo y terraza de lectura al aire libre');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,58,'Biblioteca Central UNAM',NULL);
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,158,'Biblioteca Central UNAM',NULL);
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,67,'Biblioteca Publica del Estado de Jalisco','Edificio historico en el centro de Guadalajara, coleccion de mapas antiguos');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,167,'Biblioteca Publica del Estado de Jalisco','Edificio historico en el centro de Guadalajara, coleccion de mapas antiguos');
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,75,'Carlos Monsivais',NULL);
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,175,'Carlos Monsivais',NULL);
 
 INSERT INTO BIBLIOTECAS_CRAM(ID_BIBLIOTECA,ID_DIRECCION,NOMBRE_BIBLIOTECA,DETALLES)
-VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,83,'Biblioteca de Mexico Jose Vasconcelos','Sede principal ubicada en la Ciudad de Mexico, mas de 100 anos de historia');
+VALUES(BIB_CRAM_ID_BIB_SEQ.NEXTVAL,173,'Biblioteca de Mexico Jose Vasconcelos','Sede principal ubicada en la Ciudad de Mexico, mas de 100 anos de historia');
 
 select * from bibliotecas_cram;
 
 --INSERTS DE EMPLEADOS
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,1,'Pedro','Ramirez','Conserje','15/05/2007','peramirez@gmail.com');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,26,'Pedro','Ramirez','Conserje','15/05/2007','peramirez@gmail.com');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,1,'Laura','Sandoval','Bibliotecaria Jefe','12/03/2010','laura.sandoval@biblioMM.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,26,'Laura','Sandoval','Bibliotecaria Jefe','12/03/2010','laura.sandoval@biblioMM.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,1,'Carlos','Espinoza','Catalogador','08/06/2015',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,26,'Carlos','Espinoza','Catalogador','08/06/2015',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,1,'Miriam','Tapia','Auxiliar de Servicios','20/01/2019','miriam.tapia@biblioMM.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,26,'Miriam','Tapia','Auxiliar de Servicios','20/01/2019','miriam.tapia@biblioMM.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,2,'Ricardo','Fuentes','Director','03/09/2008','ricardo.fuentes@vasconcelos.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,27,'Ricardo','Fuentes','Director','03/09/2008','ricardo.fuentes@vasconcelos.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,2,'Sofia','Herrera','Bibliotecaria','14/02/2012','sofia.herrera@vasconcelos.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,27,'Sofia','Herrera','Bibliotecaria','14/02/2012','sofia.herrera@vasconcelos.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,2,'Andres','Mora','Tecnico en Sistemas','27/07/2017',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,27,'Andres','Mora','Tecnico en Sistemas','27/07/2017',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,2,'Diana','Castellanos','Promotora Cultural','05/11/2020','diana.castellanos@vasconcelos.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,27,'Diana','Castellanos','Promotora Cultural','05/11/2020','diana.castellanos@vasconcelos.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,2,'Jesus','Palacios','Conserje','18/04/2021',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,27,'Jesus','Palacios','Conserje','18/04/2021',NULL);
 
 -- BIBLIOTECA 3 - Francisco Garcia Salinas (3 empleados)
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,3,'Elena','Rios','Bibliotecaria Jefe','22/08/2009','elena.rios@fgs.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,28,'Elena','Rios','Bibliotecaria Jefe','22/08/2009','elena.rios@fgs.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,3,'Marco','Villanueva','Auxiliar de Servicios','10/03/2016',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,28,'Marco','Villanueva','Auxiliar de Servicios','10/03/2016',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,3,'Gabriela','Soto','Catalogadora','30/09/2018','gabriela.soto@fgs.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,28,'Gabriela','Soto','Catalogadora','30/09/2018','gabriela.soto@fgs.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,4,'Hector','Montes','Director','15/01/2006','hector.montes@cosiovillegas.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,28,'Hector','Montes','Director','15/01/2006','hector.montes@cosiovillegas.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,4,'Patricia','Guzman','Investigadora','28/05/2013','patricia.guzman@cosiovillegas.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,29,'Patricia','Guzman','Investigadora','28/05/2013','patricia.guzman@cosiovillegas.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,4,'Ivan','Salazar','Auxiliar de Archivo','11/10/2017',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,29,'Ivan','Salazar','Auxiliar de Archivo','11/10/2017',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,4,'Fernanda','Quiroz','Bibliotecaria','07/03/2021','fernanda.quiroz@cosiovillegas.mx');
-
-
-INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,5,'Alejandro','Ramos','Bibliotecario Jefe','19/06/2011','alejandro.ramos@arreola.mx');
-
-INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,5,'Claudia','Ibarra','Promotora Cultural','24/02/2018',NULL);
-
-INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,5,'Roberto','Acuna','Conserje','13/08/2022','roberto.acuna@arreola.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,29,'Fernanda','Quiroz','Bibliotecaria','07/03/2021','fernanda.quiroz@cosiovillegas.mx');
 
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,6,'Veronica','Padilla','Directora','02/04/2005','veronica.padilla@bpguadalajara.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,30,'Alejandro','Ramos','Bibliotecario Jefe','19/06/2011','alejandro.ramos@arreola.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,6,'Manuel','Cervantes','Bibliotecario','17/09/2010','manuel.cervantes@bpguadalajara.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,30,'Claudia','Ibarra','Promotora Cultural','24/02/2018',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,6,'Yolanda','Peña','Catalogadora','06/01/2014',NULL);
-
-INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,6,'Luis','Alvarado','Tecnico en Sistemas','23/07/2019','luis.alvarado@bpguadalajara.mx');
-
-INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,6,'Natalia','Olvera','Auxiliar de Servicios','09/03/2023',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,30,'Roberto','Acuna','Conserje','13/08/2022','roberto.acuna@arreola.mx');
 
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,7,'Beatriz','Contreras','Directora','14/11/2007','beatriz.contreras@sorjuana.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,31,'Veronica','Padilla','Directora','02/04/2005','veronica.padilla@bpguadalajara.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,7,'Jorge','Medina','Investigador Literario','25/05/2013','jorge.medina@sorjuana.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,31,'Manuel','Cervantes','Bibliotecario','17/09/2010','manuel.cervantes@bpguadalajara.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,7,'Paulina','Estrada','Bibliotecaria','18/02/2017',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,31,'Yolanda','Peña','Catalogadora','06/01/2014',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,7,'Tomas','Guerrero','Conserje','30/10/2021','tomas.guerrero@sorjuana.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,31,'Luis','Alvarado','Tecnico en Sistemas','23/07/2019','luis.alvarado@bpguadalajara.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,8,'Ernesto','Vargas','Bibliotecario Jefe','08/07/2009','ernesto.vargas@octaviopaz.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,31,'Natalia','Olvera','Auxiliar de Servicios','09/03/2023',NULL);
+
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,8,'Adriana','Reyes','Promotora Cultural','21/04/2015',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,32,'Beatriz','Contreras','Directora','14/11/2007','beatriz.contreras@sorjuana.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,8,'Samuel','Dominguez','Auxiliar de Servicios','12/09/2020','samuel.dominguez@octaviopaz.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,32,'Jorge','Medina','Investigador Literario','25/05/2013','jorge.medina@sorjuana.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,9,'Guillermo','Navarrete','Director','01/02/2004','guillermo.navarrete@unam.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,32,'Paulina','Estrada','Bibliotecaria','18/02/2017',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,9,'Monica','Lara','Bibliotecaria Senior','16/08/2009','monica.lara@unam.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,32,'Tomas','Guerrero','Conserje','30/10/2021','tomas.guerrero@sorjuana.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,9,'Eduardo','Campos','Catalogador','04/03/2014',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,33,'Ernesto','Vargas','Bibliotecario Jefe','08/07/2009','ernesto.vargas@octaviopaz.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,9,'Karla','Nunez','Tecnica en Digitalizacion','29/06/2018','karla.nunez@unam.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,33,'Adriana','Reyes','Promotora Cultural','21/04/2015',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,9,'Diego','Aguilar','Auxiliar de Servicios','15/01/2023',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,33,'Samuel','Dominguez','Auxiliar de Servicios','12/09/2020','samuel.dominguez@octaviopaz.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,10,'Rosa','Mendivil','Directora','10/05/2006','rosa.mendivil@bpjalisco.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Guillermo','Navarrete','Director','01/02/2004','guillermo.navarrete@unam.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,10,'Armando','Cisneros','Archivista Historico','22/11/2011','armando.cisneros@bpjalisco.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Monica','Lara','Bibliotecaria Senior','16/08/2009','monica.lara@unam.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,10,'Leticia','Bustos','Bibliotecaria','07/08/2016',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Eduardo','Campos','Catalogador','04/03/2014',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,10,'Omar','Trejo','Conserje','03/02/2022','omar.trejo@bpjalisco.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Karla','Nunez','Tecnica en Digitalizacion','29/06/2018','karla.nunez@unam.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,11,'Alejandra','Fuentes','Bibliotecaria Jefe','19/03/2013','alejandra.fuentes@monsivais.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Diego','Aguilar','Auxiliar de Servicios','15/01/2023',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,11,'Rodrigo','Solis','Auxiliar de Servicios','14/07/2018',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Rosa','Mendivil','Directora','10/05/2006','rosa.mendivil@bpjalisco.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,11,'Ivonne','Maldonado','Promotora Cultural','28/01/2022','ivonne.maldonado@monsivais.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Armando','Cisneros','Archivista Historico','22/11/2011','armando.cisneros@bpjalisco.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,12,'Francisco','Moreno','Director General','05/06/2002','francisco.moreno@bibliomex.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Leticia','Bustos','Bibliotecaria','07/08/2016',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,12,'Silvia','Aragon','Coordinadora Academica','17/09/2008','silvia.aragon@bibliomex.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,34,'Omar','Trejo','Conserje','03/02/2022','omar.trejo@bpjalisco.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,12,'Pablo','Zuniga','Catalogador Senior','08/04/2013',NULL);
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,35,'Alejandra','Fuentes','Bibliotecaria Jefe','19/03/2013','alejandra.fuentes@monsivais.mx');
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,12,'Mariana','Velasco','Tecnica en Restauracion','23/10/2018','mariana.velasco@bibliomex.mx');
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,35,'Rodrigo','Solis','Auxiliar de Servicios','14/07/2018',NULL);
 
 INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
-VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,12,'Kevin','Delgado','Auxiliar de Servicios','11/05/2023',NULL);
-select * from editoriales_cram;
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,35,'Ivonne','Maldonado','Promotora Cultural','28/01/2022','ivonne.maldonado@monsivais.mx');
 
+INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,36,'Francisco','Moreno','Director General','05/06/2002','francisco.moreno@bibliomex.mx');
+
+INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,36,'Silvia','Aragon','Coordinadora Academica','17/09/2008','silvia.aragon@bibliomex.mx');
+
+INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,36,'Pablo','Zuniga','Catalogador Senior','08/04/2013',NULL);
+
+INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,36,'Mariana','Velasco','Tecnica en Restauracion','23/10/2018','mariana.velasco@bibliomex.mx');
+
+INSERT INTO EMPLEADOS_CRAM(ID_EMPLEADO,ID_BIBLIOTECA,NOMBRE,APELLIDO,PUESTO,FECHA_CONTRATACION,CORREO)
+VALUES(EMP_CRAM_ID_EMP_SEQ.NEXTVAL,36,'Kevin','Delgado','Auxiliar de Servicios','11/05/2023',NULL);
+select * from LIBROS_cram;
+SELECT * FROM EDITORIALES_CRAM;
 --INSERTS DE LIBROS
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780553283686,'HYPERION','26/05/1989',1,200,176,4.8);
+VALUES(9780553283686,'HYPERION','26/05/1989',16,200,176,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780385333849,'El Nombre de la Rosa','05/10/1980',1,320,275,4.7);
+VALUES(9780385333849,'El Nombre de la Rosa','05/10/1980',16,320,275,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780385490818,'El Pendulo de Foucault','15/11/1988',1,350,299,4.5);
+VALUES(9780385490818,'El Pendulo de Foucault','15/11/1988',16,350,299,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780307474728,'Cien Anos de Soledad','05/06/1967',1,280,240,4.9);
+VALUES(9780307474728,'Cien Anos de Soledad','05/06/1967',16,280,240,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780679720201,'En el Camino','05/09/1957',1,220,185,4.3);
+VALUES(9780679720201,'En el Camino','05/09/1957',16,220,185,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780385542364,'La Insoportable Levedad del Ser','12/04/1984',1,260,210,4.6);
+VALUES(9780385542364,'La Insoportable Levedad del Ser','12/04/1984',16,260,210,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780307350441,'2666','15/11/2004',1,420,370,4.8);
+VALUES(9780307350441,'2666','15/11/2004',16,420,370,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681604974,'El Laberinto de la Soledad','01/03/1950',2,180,150,4.7);
+VALUES(9789681604974,'El Laberinto de la Soledad','01/03/1950',17,180,150,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681619831,'Pedro Paramo','19/03/1955',2,160,130,4.9);
+VALUES(9789681619831,'Pedro Paramo','19/03/1955',17,160,130,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681605063,'Crimen y Castigo','01/01/1866',2,240,195,4.8);
+VALUES(9789681605063,'Crimen y Castigo','01/01/1866',17,240,195,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681637422,'Guerra y Paz','01/01/1869',2,450,380,4.7);
+VALUES(9789681637422,'Guerra y Paz','01/01/1869',17,450,380,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681648391,'Los Hermanos Karamazov','01/11/1880',2,380,320,4.8);
+VALUES(9789681648391,'Los Hermanos Karamazov','01/11/1880',17,380,320,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681659234,'El Llano en Llamas','15/08/1953',2,150,120,4.6);
+VALUES(9789681659234,'El Llano en Llamas','15/08/1953',17,150,120,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9789681671823,'Anna Karenina','01/03/1878',2,390,330,4.7);
+VALUES(9789681671823,'Anna Karenina','01/03/1878',17,390,330,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788408113331,'Los Pilares de la Tierra','05/10/1989',3,480,410,4.8);
+VALUES(9788408113331,'Los Pilares de la Tierra','05/10/1989',18,480,410,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788408124578,'El Codigo Da Vinci','18/03/2003',3,290,240,4.2);
+VALUES(9788408124578,'El Codigo Da Vinci','18/03/2003',18,290,240,4.2);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788408135692,'La Sombra del Viento','01/04/2001',3,310,260,4.9);
+VALUES(9788408135692,'La Sombra del Viento','01/04/2001',18,310,260,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788408146803,'Un Mundo sin Fin','04/10/2007',3,520,440,4.6);
+VALUES(9788408146803,'Un Mundo sin Fin','04/10/2007',18,520,440,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788408157914,'Inferno','14/05/2013',3,280,230,4.1);
+VALUES(9788408157914,'Inferno','14/05/2013',18,280,230,4.1);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780061996129,'El Leon la Bruja y el Ropero','16/10/1950',4,210,175,4.8);
+VALUES(9780061996129,'El Leon la Bruja y el Ropero','16/10/1950',19,210,175,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780062073488,'Good Omens','01/05/1990',4,270,225,4.7);
+VALUES(9780062073488,'Good Omens','01/05/1990',19,270,225,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780062409850,'Asesinato en el Orient Express','01/01/1934',4,230,190,4.8);
+VALUES(9780062409850,'Asesinato en el Orient Express','01/01/1934',19,230,190,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780062420244,'Diez Negritos','06/11/1939',4,220,180,4.7);
+VALUES(9780062420244,'Diez Negritos','06/11/1939',19,220,180,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780062431035,'El Hobbit','21/09/1937',4,260,215,4.9);
+VALUES(9780062431035,'El Hobbit','21/09/1937',19,260,215,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780062442126,'Stardust','01/10/1999',4,240,200,4.5);
+VALUES(9780062442126,'Stardust','01/10/1999',19,240,200,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780743273565,'El Gran Gatsby','10/04/1925',5,190,155,4.5);
+VALUES(9780743273565,'El Gran Gatsby','10/04/1925',19,190,155,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780743297332,'Por Quien Doblan las Campanas','21/10/1940',5,250,210,4.6);
+VALUES(9780743297332,'Por Quien Doblan las Campanas','21/10/1940',20,250,210,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780743311342,'El Viejo y el Mar','08/09/1952',5,180,145,4.7);
+VALUES(9780743311342,'El Viejo y el Mar','08/09/1952',20,180,145,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780743325356,'Historia Breve del Tiempo','01/04/1988',5,290,245,4.8);
+VALUES(9780743325356,'Historia Breve del Tiempo','01/04/1988',20,290,245,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780743339370,'El Universo en una Cascara de Nuez','09/10/2001',5,270,225,4.5);
+VALUES(9780743339370,'El Universo en una Cascara de Nuez','09/10/2001',20,270,225,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420471839,'La Fiesta del Chivo','01/03/2000',6,310,265,4.6);
+VALUES(9788420471839,'La Fiesta del Chivo','01/03/2000',21,310,265,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420482842,'Conversacion en la Catedral','01/10/1969',6,340,290,4.7);
+VALUES(9788420482842,'Conversacion en la Catedral','01/10/1969',21,340,290,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420493853,'La Casa de los Espiritus','01/10/1982',6,295,250,4.8);
+VALUES(9788420493853,'La Casa de los Espiritus','01/10/1982',21,295,250,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420504864,'Eva Luna','01/10/1987',6,270,225,4.5);
+VALUES(9788420504864,'Eva Luna','01/10/1987',21,270,225,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420515875,'El Coronel no tiene quien le Escriba','01/01/1961',6,195,160,4.8);
+VALUES(9788420515875,'El Coronel no tiene quien le Escriba','01/01/1961',21,195,160,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788420526886,'Cronica de una Muerte Anunciada','01/04/1981',6,210,175,4.7);
+VALUES(9788420526886,'Cronica de una Muerte Anunciada','01/04/1981',21,210,175,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433914521,'Factotum','01/01/1975',7,230,190,4.5);
+VALUES(9788433914521,'Factotum','01/01/1975',22,230,190,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433925534,'La Ciudad y los Perros','01/10/1963',7,280,235,4.6);
+VALUES(9788433925534,'La Ciudad y los Perros','01/10/1963',22,280,235,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433936547,'El Palacio de la Luna','01/09/1990',7,265,220,4.4);
+VALUES(9788433936547,'El Palacio de la Luna','01/09/1990',22,265,220,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433947558,'Los Detectives Salvajes','01/10/1998',7,320,275,4.8);
+VALUES(9788433947558,'Los Detectives Salvajes','01/10/1998',22,320,275,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433958561,'Mujeres','15/02/1978',7,215,180,4.3);
+VALUES(9788433958561,'Mujeres','15/02/1978',22,215,180,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788433969574,'Hombres sin Mujeres','01/04/2014',7,250,210,4.5);
+VALUES(9788433969574,'Hombres sin Mujeres','01/04/2014',22,250,210,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074382341,'El Arte de Amar','01/01/1956',8,195,160,4.6);
+VALUES(9786074382341,'El Arte de Amar','01/01/1956',23,195,160,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074393354,'Miedo a la Libertad','01/01/1941',8,220,185,4.5);
+VALUES(9786074393354,'Miedo a la Libertad','01/01/1941',23,220,185,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074404367,'Tener o Ser','01/01/1976',8,210,175,4.4);
+VALUES(9786074404367,'Tener o Ser','01/01/1976',23,210,175,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074415370,'Introduccion a las Matematicas','15/08/2010',8,380,320,4.2);
+VALUES(9786074415370,'Introduccion a las Matematicas','15/08/2010',23,380,320,4.2);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074426383,'Fundamentos de Fisica','20/01/2015',8,420,355,4.3);
+VALUES(9786074426383,'Fundamentos de Fisica','20/01/2015',23,420,355,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786070106392,'Como Agua para Chocolate','01/09/1989',9,230,195,4.7);
+VALUES(9786070106392,'Como Agua para Chocolate','01/09/1989',24,230,195,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786070117405,'La Ley del Amor','01/10/1995',9,215,180,4.3);
+VALUES(9786070117405,'La Ley del Amor','01/10/1995',24,215,180,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786070128418,'Gabriela Clavo y Canela','01/01/1958',9,240,200,4.5);
+VALUES(9786070128418,'Gabriela Clavo y Canela','01/01/1958',24,240,200,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786070139421,'Dona Flor y sus dos Maridos','01/01/1966',9,255,215,4.4);
+VALUES(9786070139421,'Dona Flor y sus dos Maridos','01/01/1966',24,255,215,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786070140434,'Gramatica de la Lengua Espanola','10/03/2018',9,350,295,4.1);
+VALUES(9786070140434,'Gramatica de la Lengua Espanola','10/03/2018',24,350,295,4.1);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333761021,'Las Uvas de la Ira','14/04/1939',10,270,225,4.7);
+VALUES(9780333761021,'Las Uvas de la Ira','14/04/1939',25,270,225,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333772034,'De Ratones y Hombres','25/02/1937',10,210,175,4.6);
+VALUES(9780333772034,'De Ratones y Hombres','25/02/1937',25,210,175,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333783047,'El Libro de la Selva','01/01/1894',10,190,155,4.7);
+VALUES(9780333783047,'El Libro de la Selva','01/01/1894',25,190,155,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333794050,'Kim','01/01/1901',10,200,165,4.4);
+VALUES(9780333794050,'Kim','01/01/1901',25,200,165,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333805063,'Al Este del Eden','19/09/1952',10,290,245,4.7);
+VALUES(9780333805063,'Al Este del Eden','19/09/1952',25,290,245,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780333816076,'La Perla','30/11/1947',10,180,145,4.5);
+VALUES(9780333816076,'La Perla','30/11/1947',25,180,145,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9782070360024,'El Extranjero','01/06/1942',11,185,150,4.8);
+VALUES(9782070360024,'El Extranjero','01/06/1942',26,185,150,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9782070371037,'La Nausea','01/04/1938',11,195,160,4.5);
+VALUES(9782070371037,'La Nausea','01/04/1938',26,195,160,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9782070382040,'La Peste','01/06/1947',11,210,175,4.7);
+VALUES(9782070382040,'La Peste','01/06/1947',26,210,175,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9782070393053,'En Busca del Tiempo Perdido','14/11/1913',11,550,470,4.6);
+VALUES(9782070393053,'En Busca del Tiempo Perdido','14/11/1913',26,550,470,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9782070404066,'El Muro','01/01/1939',11,190,155,4.4);
+VALUES(9782070404066,'El Muro','01/01/1939',26,190,155,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708180,'Harry Potter y la Piedra Filosofal','26/06/1997',12,280,235,4.9);
+VALUES(9780439708180,'Harry Potter y la Piedra Filosofal','26/06/1997',27,280,235,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708197,'Harry Potter y la Camara Secreta','02/07/1998',12,280,235,4.8);
+VALUES(9780439708197,'Harry Potter y la Camara Secreta','02/07/1998',27,280,235,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708203,'Harry Potter y el Prisionero de Azkaban','08/07/1999',12,290,245,4.9);
+VALUES(9780439708203,'Harry Potter y el Prisionero de Azkaban','08/07/1999',27,290,245,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708210,'La Casa del Terror','01/07/1992',12,195,160,4.3);
+VALUES(9780439708210,'La Casa del Terror','01/07/1992',27,195,160,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708227,'Pesadillas','01/07/1992',12,185,150,4.2);
+VALUES(9780439708227,'Pesadillas','01/07/1992',27,185,150,4.2);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780439708234,'El Monstruo de la Laguna','01/04/1993',12,185,150,4.1);
+VALUES(9780439708234,'El Monstruo de la Laguna','01/04/1993',27,185,150,4.1);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074500134,'La Noche de Tlatelolco','02/10/1971',13,220,185,4.8);
+VALUES(9786074500134,'La Noche de Tlatelolco','02/10/1971',28,220,185,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074511147,'Hasta no Verte Jesus Mio','01/01/1969',13,210,175,4.7);
+VALUES(9786074511147,'Hasta no Verte Jesus Mio','01/01/1969',28,210,175,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074522150,'Dias de Guardar','01/01/1970',13,195,160,4.5);
+VALUES(9786074522150,'Dias de Guardar','01/01/1970',28,195,160,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074533163,'El Principio del Placer','01/01/1972',13,200,165,4.4);
+VALUES(9786074533163,'El Principio del Placer','01/01/1972',28,200,165,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9786074544176,'Parte de Guerra','02/10/1999',13,230,195,4.6);
+VALUES(9786074544176,'Parte de Guerra','02/10/1999',28,230,195,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788483103821,'La Broma','01/01/1967',14,240,200,4.6);
+VALUES(9788483103821,'La Broma','01/01/1967',29,240,200,4.6);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788483114834,'El Libro de la Risa y el Olvido','01/01/1979',14,255,215,4.5);
+VALUES(9788483114834,'El Libro de la Risa y el Olvido','01/01/1979',29,255,215,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788483125847,'La Autobiografia de Federico Sanchez','01/01/1977',14,230,190,4.4);
+VALUES(9788483125847,'La Autobiografia de Federico Sanchez','01/01/1977',29,230,190,4.4);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788483136850,'La Inmortalidad','01/01/1990',14,265,220,4.5);
+VALUES(9788483136850,'La Inmortalidad','01/01/1990',29,265,220,4.5);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9788483147863,'La Lentitud','01/01/1995',14,220,185,4.3);
+VALUES(9788483147863,'La Lentitud','01/01/1995',29,220,185,4.3);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345339706,'Juego de Tronos','01/08/1996',15,380,320,4.9);
+VALUES(9780345339706,'Juego de Tronos','01/08/1996',30,380,320,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345350978,'El Camino de los Reyes','31/08/2010',15,420,360,4.9);
+VALUES(9780345350978,'El Camino de los Reyes','31/08/2010',30,420,360,4.9);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345362001,'Elantris','21/04/2005',15,310,265,4.7);
+VALUES(9780345362001,'Elantris','21/04/2005',30,310,265,4.7);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345373014,'El Imperio Final','17/07/2006',15,350,295,4.8);
+VALUES(9780345373014,'El Imperio Final','17/07/2006',30,350,295,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345384027,'Choque de Reyes','16/11/1998',15,390,330,4.8);
+VALUES(9780345384027,'Choque de Reyes','16/11/1998',30,390,330,4.8);
 
 INSERT INTO LIBROS_CRAM(ISBN,TITULO,FECHA_PUBLICACION,ID_EDITORIAL,PRECIO_LISTA,PRECIO_AMAZON,CALIFICACION_AMAZON)
-VALUES(9780345395030,'Tormenta de Espadas','08/08/2000',15,400,340,4.9);
+VALUES(9780345395030,'Tormenta de Espadas','08/08/2000',30,400,340,4.9);
 
-select * from libros_cram;
+SELECT * FROM AUTORES_CRAM;
+SELECT * FROM LIBROS_CRAM;
+SELECT * FROM LIBROS_POR_AUTOR;
+COMMIT;
+--INSERTS LIBROS POR AUTOR
+
+-- ID 41 -Dan Simmons
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN)
+VALUES(41,9780553283686);
+
+-- ID 42 - Stephen King
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(42,9780439708210);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(42,9780439708227);
+
+-- ID 43 - Toni Morrison (sin libros asignados)
+
+-- ID 44 - George R.R. Martin
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(44,9780345339706);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(44,9780345384027);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(44,9780345395030);
+
+-- ID 45 - Brandon Sanderson
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(45,9780345350978);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(45,9780345362001);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(45,9780345373014);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(45,9780345384027);
+
+-- ID 46 - C.S. Lewis
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(46,9780062431035);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(46,9780061996129);
+
+-- ID 47 - Neil Gaiman
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(47,9780062073488);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(47,9780062442126);
+
+-- ID 48 - Agatha Christie
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(48,9780062409850);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(48,9780062420244);
+
+-- ID 49 - Ernest Hemingway
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(49,9780743297332);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(49,9780743311342);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(49,9780743273565);
+
+-- ID 50 - Stephen Hawking
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(50,9780743325356);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(50,9780743339370);
+
+-- ID 51 - Gabriel Garcia Marquez
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(51,9780307474728);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(51,9788420515875);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(51,9788420526886);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(51,9788420482842);
+
+-- ID 52 - Mario Vargas Llosa
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(52,9788420471839);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(52,9788433925534);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(52,9788420482842);
+
+-- ID 53 - Isabel Allende
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(53,9788420493853);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(53,9788420504864);
+
+-- ID 54 - Charles Bukowski
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(54,9788433914521);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(54,9788433958561);
+
+-- ID 55 - Roberto Bolano
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(55,9780307350441);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(55,9788433947558);
+
+-- ID 56 - Paul Auster (sin libros asignados)
+
+-- ID 57 - Javier Marias (sin libros asignados)
+
+-- ID 58 - Fiodor Dostoievski
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(58,9789681605063);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(58,9789681648391);
+
+-- ID 59 - Octavio Paz
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(59,9789681604974);
+
+-- ID 60 - Juan Rulfo
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(60,9789681619831);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(60,9789681659234);
+
+-- ID 61 - Leon Tolstoi
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(61,9789681637422);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(61,9789681671823);
+
+-- ID 62 - Ken Follett
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(62,9788408113331);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(62,9788408146803);
+
+-- ID 63 - Carlos Ruiz Zafon
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(63,9788408135692);
+
+-- ID 64 - Dan Brown
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(64,9788408124578);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(64,9788408157914);
+
+-- ID 65 - Laura Esquivel
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(65,9786070106392);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(65,9786070117405);
+
+-- ID 66 - Jorge Amado
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(66,9786070128418);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(66,9786070139421);
+
+-- ID 67 - John Steinbeck
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(67,9780333761021);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(67,9780333772034);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(67,9780333805063);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(67,9780333816076);
+
+-- ID 68 - Rudyard Kipling
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(68,9780333783047);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(68,9780333794050);
+
+-- ID 69 - Albert Camus
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(69,9782070360024);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(69,9782070382040);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(69,9782070404066);
+
+-- ID 70 - Jean-Paul Sartre
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(70,9782070371037);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(70,9782070404066);
+
+-- ID 71 - Marcel Proust
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(71,9782070393053);
+
+-- ID 72 - J.K. Rowling
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(72,9780439708180);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(72,9780439708197);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(72,9780439708203);
+
+-- ID 73 - R.L. Stine (sin libros asignados)
+
+-- ID 74 - Elena Poniatowska
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(74,9786074500134);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(74,9786074511147);
+
+-- ID 75 - Carlos Monsivais
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(75,9786074522150);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(75,9786074533163);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(75,9786074544176);
+
+-- ID 76 - Milan Kundera
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(76,9788483103821);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(76,9788483114834);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(76,9788483136850);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(76,9788483147863);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(76,9780385542364);
+
+-- ID 77 - Jorge Semprun
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(77,9788483125847);
+
+-- ID 78 - Erich Fromm
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(78,9786074382341);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(78,9786074393354);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(78,9786074404367);
+
+-- ID 79 - Franz Kafka
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(79,9780385333849);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(79,9780385490818);
+
+-- ID 80 - Haruki Murakami
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(80,9788433936547);
+INSERT INTO LIBROS_POR_AUTOR_CRAM(ID_AUTOR,ISBN) VALUES(80,9788433969574);
+select * from libros_por_autor_cram;
